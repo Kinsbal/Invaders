@@ -1,0 +1,61 @@
+body {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#display {
+    position: absolute; 
+}
+
+
+#scoreDiv {
+  /* border: 1px dashed black; */
+
+    position: absolute; 
+    z-index: 100;
+    right: 3vh;
+    top: 3vh;
+
+    color: white;
+    font-weight: bolder;
+
+
+    font-family: ARCADECLASSIC;
+    font-size: 3vh;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-sewlect: none;
+    -o-user-select: none;
+}
+
+@font-face {
+    font-family: ARCADECLASSIC;
+    src: url(font/ARCADECLASSIC.TTF);
+}
+
+#gameOver {
+    position: absolute; 
+    z-index: 100;
+    /* text-align: center;
+    right: 3vh;
+    top: 3vh; */
+
+    color: white;
+    font-weight: bolder;
+    font-family: ARCADECLASSIC;
+    font-size: 5vh;
+
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-sewlect: none;
+    -o-user-select: none;
+}
